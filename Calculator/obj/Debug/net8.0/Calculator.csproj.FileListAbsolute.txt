@@ -1,0 +1,14 @@
+/Users/zbxshe/проекты/Колледж/rider/Calculator/Calculator/bin/Debug/net8.0/Calculator
+/Users/zbxshe/проекты/Колледж/rider/Calculator/Calculator/bin/Debug/net8.0/Calculator.deps.json
+/Users/zbxshe/проекты/Колледж/rider/Calculator/Calculator/bin/Debug/net8.0/Calculator.runtimeconfig.json
+/Users/zbxshe/проекты/Колледж/rider/Calculator/Calculator/bin/Debug/net8.0/Calculator.dll
+/Users/zbxshe/проекты/Колледж/rider/Calculator/Calculator/bin/Debug/net8.0/Calculator.pdb
+/Users/zbxshe/проекты/Колледж/rider/Calculator/Calculator/obj/Debug/net8.0/Calculator.GeneratedMSBuildEditorConfig.editorconfig
+/Users/zbxshe/проекты/Колледж/rider/Calculator/Calculator/obj/Debug/net8.0/Calculator.AssemblyInfoInputs.cache
+/Users/zbxshe/проекты/Колледж/rider/Calculator/Calculator/obj/Debug/net8.0/Calculator.AssemblyInfo.cs
+/Users/zbxshe/проекты/Колледж/rider/Calculator/Calculator/obj/Debug/net8.0/Calculator.csproj.CoreCompileInputs.cache
+/Users/zbxshe/проекты/Колледж/rider/Calculator/Calculator/obj/Debug/net8.0/Calculator.dll
+/Users/zbxshe/проекты/Колледж/rider/Calculator/Calculator/obj/Debug/net8.0/refint/Calculator.dll
+/Users/zbxshe/проекты/Колледж/rider/Calculator/Calculator/obj/Debug/net8.0/Calculator.pdb
+/Users/zbxshe/проекты/Колледж/rider/Calculator/Calculator/obj/Debug/net8.0/Calculator.genruntimeconfig.cache
+/Users/zbxshe/проекты/Колледж/rider/Calculator/Calculator/obj/Debug/net8.0/ref/Calculator.dll
