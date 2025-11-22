@@ -12,3 +12,4 @@
 /Users/zbxshe/проекты/Колледж/rider/Calculator/Calculator/obj/Debug/net8.0/Calculator.pdb
 /Users/zbxshe/проекты/Колледж/rider/Calculator/Calculator/obj/Debug/net8.0/Calculator.genruntimeconfig.cache
 /Users/zbxshe/проекты/Колледж/rider/Calculator/Calculator/obj/Debug/net8.0/ref/Calculator.dll
+/Users/zbxshe/проекты/Колледж/rider/Calculator/Calculator/obj/Debug/net8.0/Calculator.sourcelink.json

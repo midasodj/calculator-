@@ -1,53 +1,49 @@
-﻿namespace  Calculator
+﻿namespace Calculator
 {
-    class Program
+    class Calculator
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("====Simple Calculator====");
-            Console.WriteLine("Введите первое число:");
-            double a = double.Parse(Console.ReadLine());
-            Console.WriteLine("Введите второе число:");
-            double b = double.Parse(Console.ReadLine());
-            Console.WriteLine("Введите операцию: ");
-            string op = Console.ReadLine();
-            switch (op)
+            Console.WriteLine("==== Простой калькулятор ====\n");
+
+            double a, b;
+            string op;
+
+            while (true)
             {
-                case "+":
-                    Console.WriteLine(Add(a, b));
+                Console.Write("Введите первое число: ");
+                if (double.TryParse(Console.ReadLine(), out a))
                     break;
-                case "-":
-                    Console.WriteLine(Subtract(a, b));
-                    break;
-                case "*":
-                    Console.WriteLine(Multiply(a, b));
-                    break;
-                case "/":
-                    Console.WriteLine(Divide(a, b));
-                    break;
-                default:
-                    break;
+                Console.WriteLine("Ошибка! Введите число правильно.");
             }
-        }
-        
-        static double Add(double a, double b)
-        {
-            return a + b;
-        }
 
-        static double Subtract(double a, double b)
-        {
-            return a - b;
-        }
+            while (true)
+            {
+                Console.Write("Введите второе число: ");
+                if (double.TryParse(Console.ReadLine(), out b))
+                    break;
+                Console.WriteLine("Ошибка! Введите число.");
+            }
 
-        static double Multiply(double a, double b)
-        {
-            return a * b;
-        }
+            while (true)
+            {
+                Console.Write("Введите операцию (+, -, *, /): ");
+                op = Console.ReadLine().Trim();
+                if (op == "+" || op == "-" || op == "*" || op == "/")
+                    break;
+                Console.WriteLine("Ошибка! Используйте только: + - * /");
+            }
 
-        static double Divide(double a, double b)
-        {
-            return a / b;
+            if (op == "+") Console.WriteLine($"Результат: {a + b}");
+            else if (op == "-") Console.WriteLine($"Результат: {a - b}");
+            else if (op == "*") Console.WriteLine($"Результат: {a * b}");
+            else if (op == "/")
+            {
+                if (b == 0)
+                    Console.WriteLine("Ошибка! На ноль делить нельзя!");
+                else
+                    Console.WriteLine($"Результат: {a / b}");
+            }
         }
     }
 }
